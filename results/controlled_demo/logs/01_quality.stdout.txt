@@ -1,0 +1,12 @@
+This is cutadapt 5.2 with Python 3.12.13
+Command line parameters: --cores 1 --quality-cutoff 20 --json .\reports\01_quality.cutadapt.json --output .\01_quality_trimmed.fastq controlled.fastq
+Processing single-end reads on 1 core ...
+
+=== Summary ===
+
+Total reads processed:                       5
+Reads written (passing filters):             5 (100.0%)
+
+Total basepairs processed:           496 bp
+Quality-trimmed:                      20 bp (4.0%)
+Total written (filtered):            476 bp (96.0%)

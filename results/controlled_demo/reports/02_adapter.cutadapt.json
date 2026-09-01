@@ -1,0 +1,102 @@
+{
+  "tag": "Cutadapt report",
+  "schema_version": [
+    0,
+    3
+  ],
+  "cutadapt_version": "5.2",
+  "python_version": "3.12.13",
+  "command_line_arguments": [
+    "--cores",
+    "1",
+    "--adapter",
+    "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA",
+    "--overlap",
+    "8",
+    "--error-rate",
+    "0.1",
+    "--json",
+    ".\\reports\\02_adapter.cutadapt.json",
+    "--output",
+    ".\\02_adapter_trimmed.fastq",
+    ".\\01_quality_trimmed.fastq"
+  ],
+  "cores": 1,
+  "input": {
+    "path1": ".\\01_quality_trimmed.fastq",
+    "path2": null,
+    "paired": false
+  },
+  "read_counts": {
+    "input": 5,
+    "filtered": {
+      "too_short": null,
+      "too_long": null,
+      "too_many_n": null,
+      "too_many_expected_errors": null,
+      "casava_filtered": null,
+      "discard_trimmed": null,
+      "discard_untrimmed": null
+    },
+    "output": 5,
+    "reverse_complemented": null,
+    "read1_with_adapter": 2,
+    "read2_with_adapter": null
+  },
+  "basepair_counts": {
+    "input": 476,
+    "input_read1": 476,
+    "input_read2": null,
+    "quality_trimmed": null,
+    "quality_trimmed_read1": null,
+    "quality_trimmed_read2": null,
+    "poly_a_trimmed": null,
+    "poly_a_trimmed_read1": null,
+    "poly_a_trimmed_read2": null,
+    "output": 410,
+    "output_read1": 410,
+    "output_read2": null
+  },
+  "adapters_read1": [
+    {
+      "name": "1",
+      "total_matches": 2,
+      "on_reverse_complement": null,
+      "linked": false,
+      "five_prime_end": null,
+      "three_prime_end": {
+        "type": "regular_three_prime",
+        "sequence": "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA",
+        "error_rate": 0.1,
+        "indels": true,
+        "error_lengths": [
+          9,
+          19,
+          29,
+          33
+        ],
+        "matches": 2,
+        "adjacent_bases": {
+          "A": 0,
+          "C": 0,
+          "G": 1,
+          "T": 1,
+          "": 0
+        },
+        "dominant_adjacent_base": null,
+        "trimmed_lengths": [
+          {
+            "len": 33,
+            "expect": 0.0,
+            "counts": [
+              2
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "adapters_read2": null,
+  "poly_a_trimmed_read1": null,
+  "poly_a_trimmed_read2": null
+}

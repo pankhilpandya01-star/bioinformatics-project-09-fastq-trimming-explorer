@@ -1,0 +1,2 @@
+SRA accession,Organism,Library strategy,Library layout,Platform,Instrument,Read selection,Records bundled,SRA Toolkit,SHA256,Subset command,Source URL,Retrieved
+SRR13921545,Escherichia coli K-12 MG1655,WGS,PAIRED,ILLUMINA,Illumina NovaSeq 6000,Read 1 from spots 1-5000,5000,3.4.1,C3D708BA4B1C7EB4BB95DBAE6F7189F291250D129514F4D26B50AAD272FECC15,fastq-dump --split-files --skip-technical -X 5000 SRR13921545,https://www.ncbi.nlm.nih.gov/sra/SRR13921545,2026-08-05

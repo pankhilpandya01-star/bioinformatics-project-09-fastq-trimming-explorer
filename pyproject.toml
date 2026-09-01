@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastq-trimming-explorer"
+version = "0.1.0"
+description = "A traceable single-end FASTQ trimming workflow"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+  "cutadapt==5.2",
+  "matplotlib==3.11.1",
+]
+
+[project.scripts]
+fastq-trimming-explorer = "fastq_trimming_explorer.cli:main"
+
+[project.urls]
+Repository = "https://github.com/pankhilpandya01-star/bioinformatics-project-09-fastq-trimming-explorer"
+Documentation = "https://github.com/pankhilpandya01-star/bioinformatics-project-09-fastq-trimming-explorer#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]

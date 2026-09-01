@@ -1,0 +1,15 @@
+metric,value,unit
+input_reads,5000,reads
+retained_reads,4986,reads
+discarded_too_short_reads,14,reads
+quality_changed_reads,60,reads
+adapter_changed_reads,42,reads
+any_trimmed_reads,102,reads
+input_bases,500000,bases
+quality_trimmed_bases,71,bases
+adapter_trimmed_bases,924,bases
+total_trimmed_bases,995,bases
+retained_bases,498107,bases
+bases_in_discarded_reads,898,bases
+trimmed_bases_percent,0.199000,percent
+retained_bases_percent,99.621400,percent

@@ -1,0 +1,6 @@
+read_id,original_length,post_quality_length,post_adapter_length,final_length,quality_bases_removed,adapter_bases_removed,total_bases_removed,status
+unchanged,100,100,100,100,0,0,0,retained
+quality_tail,100,90,90,90,10,0,10,retained
+adapter_retained,113,113,80,80,0,33,33,retained
+adapter_discarded,103,103,70,70,0,33,33,discarded_too_short
+quality_discarded,80,70,70,70,10,0,10,discarded_too_short

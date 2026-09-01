@@ -1,0 +1,37 @@
+{
+  "workflow_version": "0.1.0",
+  "cutadapt_version": "5.2",
+  "input": {
+    "path": "SRR13921545_read1_first5000.fastq",
+    "sha256": "c3d708ba4b1c7eb4bb95dbae6f7189f291250d129514f4d26b50aad272fecc15"
+  },
+  "parameters": {
+    "adapter": "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA",
+    "quality_cutoff": 20.0,
+    "minimum_length": 75,
+    "minimum_overlap": 8,
+    "error_rate": 0.1
+  },
+  "counts": {
+    "output_dir": ".",
+    "input_reads": 5000,
+    "retained_reads": 4986,
+    "discarded_reads": 14,
+    "input_bases": 500000,
+    "quality_bases_removed": 71,
+    "adapter_bases_removed": 924,
+    "total_bases_removed": 995
+  },
+  "analysis": {
+    "before_mean_quality": 36.43048,
+    "after_mean_quality": 36.43349119767439,
+    "before_q20_percent": 99.0076,
+    "after_q20_percent": 99.02049158112614,
+    "before_q30_percent": 96.4124,
+    "after_q30_percent": 96.42245541620575,
+    "discarded_bases": 898,
+    "quality_changed_reads": 60,
+    "adapter_changed_reads": 42,
+    "any_changed_reads": 102
+  }
+}

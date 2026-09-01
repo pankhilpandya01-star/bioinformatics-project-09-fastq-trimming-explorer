@@ -1,0 +1,10 @@
+metric,before,after,absolute_change,relative_change_percent,unit
+read_count,5000,4986,-14.000000,-0.280000,reads
+total_bases,500000,498107,-1893.000000,-0.378600,bases
+mean_read_length,100.000000,99.901123,-0.098877,-0.098877,nt
+median_read_length,100.000000,100.000000,0.000000,0.000000,nt
+minimum_read_length,100,77,-23.000000,-23.000000,nt
+maximum_read_length,100,100,0.000000,0.000000,nt
+mean_base_quality,36.430480,36.433491,0.003011,0.008266,Phred
+q20_bases,99.007600,99.020492,0.012892,0.013021,percent
+q30_bases,96.412400,96.422455,0.010055,0.010430,percent

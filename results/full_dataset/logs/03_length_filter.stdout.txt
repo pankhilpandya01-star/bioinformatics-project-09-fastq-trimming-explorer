@@ -1,0 +1,14 @@
+This is cutadapt 5.2 with Python 3.12.13
+Command line parameters: --cores 1 --minimum-length 75 --too-short-output .\discarded_too_short.fastq --json .\reports\03_length_filter.cutadapt.json --output .\retained_reads.fastq .\02_adapter_trimmed.fastq
+Processing single-end reads on 1 core ...
+
+=== Summary ===
+
+Total reads processed:                   5,000
+
+== Read fate breakdown ==
+Reads that were too short:                  14 (0.3%)
+Reads written (passing filters):         4,986 (99.7%)
+
+Total basepairs processed:       499,005 bp
+Total written (filtered):        498,107 bp (99.8%)

@@ -1,0 +1,60 @@
+{
+  "tag": "Cutadapt report",
+  "schema_version": [
+    0,
+    3
+  ],
+  "cutadapt_version": "5.2",
+  "python_version": "3.12.13",
+  "command_line_arguments": [
+    "--cores",
+    "1",
+    "--quality-cutoff",
+    "20",
+    "--json",
+    ".\\reports\\01_quality.cutadapt.json",
+    "--output",
+    ".\\01_quality_trimmed.fastq",
+    "controlled.fastq"
+  ],
+  "cores": 1,
+  "input": {
+    "path1": "controlled.fastq",
+    "path2": null,
+    "paired": false
+  },
+  "read_counts": {
+    "input": 5,
+    "filtered": {
+      "too_short": null,
+      "too_long": null,
+      "too_many_n": null,
+      "too_many_expected_errors": null,
+      "casava_filtered": null,
+      "discard_trimmed": null,
+      "discard_untrimmed": null
+    },
+    "output": 5,
+    "reverse_complemented": null,
+    "read1_with_adapter": null,
+    "read2_with_adapter": null
+  },
+  "basepair_counts": {
+    "input": 496,
+    "input_read1": 496,
+    "input_read2": null,
+    "quality_trimmed": 20,
+    "quality_trimmed_read1": 20,
+    "quality_trimmed_read2": null,
+    "poly_a_trimmed": null,
+    "poly_a_trimmed_read1": null,
+    "poly_a_trimmed_read2": null,
+    "output": 476,
+    "output_read1": 476,
+    "output_read2": null
+  },
+  "adapters_read1": [],
+  "adapters_read2": null,
+  "poly_a_trimmed_read1": null,
+  "poly_a_trimmed_read2": null
+}
